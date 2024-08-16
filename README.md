@@ -184,3 +184,28 @@ splitfolders.ratio('/tmp/rockpaperscissors/rps-cv-images', output='/tmp/rockpape
 **7. Use the model to make predictions on new images:**
 
 * Load new images and predict their classes using the trained model.
+
+## Model Architecture
+The model uses a convolutional neural network (CNN) architecture designed for image classification tasks. The architecture includes the following components:
+
+**1. Convolutional Layers:** Extracts features from the input images using filters.
+
+**2. Pooling Layers:** Reduces the spatial dimensions of feature maps.
+
+**3. Flatten Layer:** Converts the 2D feature maps into a 1D vector.
+
+**4. Dense Layers:** Fully connected layers that learn complex patterns and relationships.
+
+**5. Output Layer:** A softmax layer that outputs probabilities for each class (rock, paper, or scissors).
+
+## Customization
+The model architecture can be customized by adjusting the number of layers, filters, and neurons. Experiment with different configurations to optimize the model's performance.
+
+## Evaluation
+Evaluate the model's performance using various metrics:
+
+**1. Accuracy:** Measures the percentage of correctly classified images.
+
+**2. Precision, Recall, and F1-score:** Provides a detailed understanding of the model's performance for each class.
+
+**3. Confusion Matrix:** Visualizes the classification results and identifies areas for improvement.
