@@ -206,6 +206,31 @@ Evaluate the model's performance using various metrics:
 
 **1. Accuracy:** Measures the percentage of correctly classified images.
 
-**2. Precision, Recall, and F1-score:** Provides a detailed understanding of the model's performance for each class.
+**2. Precision:** Provides a detailed understanding of the model's performance for each class.
 
 **3. Confusion Matrix:** Visualizes the classification results and identifies areas for improvement.
+
+## Model Metrics
+**Training and Validation Loss/Accuracy:** During the training process, the notebook outputs the training and validation loss/accuracy after each epoch directly to the console. This allows you to track the model's learning progress over time and evaluate its performance. The final accuracy and loss values are presented at the end of training, providing a clear summary of how well the model has been trained.
+
+## Contributing
+I welcome contributions to enhance this project. Please follow these steps to contribute:
+
+**1. Fork the repository.**
+
+**2. Create a new branch:** 
+```
+git checkout -b feature-name
+```
+
+**3. Commit your changes:**
+```
+git commit -m 'Add some feature'
+```
+
+**4. Push to the branch:**
+```
+git push origin feature-name
+```
+
+**5. Submit a pull request.**
