@@ -2,16 +2,16 @@
 Welcome to the Image Classification project that focuses on classifying images of rock, paper, and scissors. This project was created as a final project for the Dicoding course, Machine Learning for Beginners. It demonstrates how to use machine learning techniques to build an image classifier using Python and Jupyter Notebook. The project leverages convolutional neural networks (CNNs) to automatically learn patterns from image data and classify images into one of the three categories: rock, paper, or scissors.
 
 ## Table of Contents
-1. [Project Overview]()
-2. [Features]()
-3. [Dataset]()
-4. [Requirements]()
-5. [Installation]()
-6. [Usage]()
-7. [Model Architecture]()
-8. [Evaluation]()
-9. [Visualization]()
-10. [Contributing]()
+1. [Project Overview](#project-overview)
+2. [Features](#features)
+3. [Dataset](#dataset)
+4. [Requirements](#requirements)
+5. [Installation](#installation)
+6. [Usage](#usage)
+7. [Model Architecture](#model-architecture)
+8. [Evaluation](#evaluation)
+9. [Model Metrics](#model-metrics)
+10. [Contributing](#contributing)
 
 ## Project Overview
 The goal of this project is to build a robust image classification model capable of distinguishing between images of rock, paper, and scissors. By employing deep learning techniques, specifically CNNs, the model learns to identify unique features in the images that differentiate one category from another. This project is a practical example of applying machine learning to solve real-world problems and can serve as a foundation for more complex image classification tasks.
